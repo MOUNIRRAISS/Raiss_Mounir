@@ -5,8 +5,8 @@
 - [Skills and Expertise ](#skills-and-expertise)
 - [What You'll Find Here ](#what-youll-find-here)
 - [Projects Showcase ](#projects-showcase)
-- [Project N°1 (HR Attrition Analysis)(Python & Power BI) ](#project-n1----hr-attrition-analysis)
-- [Project N°2 In Progress](#project-n2)
+- [Project N°1 (sales_analysis_project)(Python)](####Project-N°1----------Sales-analysis-project)
+- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#project-n1----hr-attrition-analysis)
 
 
 ### About Me 
@@ -35,7 +35,125 @@ This portfolio showcases my projects, skills, and achievements, including:
 
 Here are some of the key projects I’ve worked on, highlighting my skills in data analysis, econometrics, and visualization. Each project tackles a unique challenge and demonstrates my ability to transform data into actionable insights:
 
-### Project N°1    HR Attrition Analysis 
+### Project N°1     Sales_analysis_project
+
+#### Table of contents
+- [Title](#title.)
+- [Project Description](#project-description)
+- [Project Objectives](#project-objectives)
+- [Tools Used](#tools-used.)
+- [Data Source](#data-source)
+- [Python Data Cleaning & Visualization](#python-data-cleaning-and-visualization.)
+- [Step 1: Importing Necessary Packages ](#step-1-importing-necessary-packages.)
+- [Step 2 Importing the Dataset ](#step-2-importing-the-dataset.)
+- [Step 3: Verifying the Dataset ](#step-3-verifying-the-dataset.)
+- [Step 4: Step 4: Analyzing the Data — Answering the Business Questions ](#step-4:-analyzing-the-data---answering-the-business-questions)
+
+
+#### Title.  
+Sales analysis project
+
+#### Project Description
+
+This project is a data analysis case study aimed at understanding key trends and insights from a sales dataset of a company selling smartphones and gadgets. By analyzing the data, we can uncover important patterns regarding sales performance, product popularity, and customer behavior. The analysis helps answer several business-related questions and provides actionable insights for improving sales strategies.
+
+### Project Objectives:
+Identify the Month with the Highest Revenue: Determine which month generated the highest sales, providing insights into seasonality or trends.
+Analyze the City with the Most Orders: Identify which city recorded the highest number of sales, helping the company to understand where its products are most popular.
+Determine the Optimal Time for Advertising Campaigns: Analyze the data to recommend the best time for advertising campaigns to maximize sales.
+Find the Best-Selling Product: Identify the product that sold the most and explore the factors contributing to its success.
+
+
+#### Tools Used. 
+
+- Python for data cleaning and visualisation
+
+
+### Python Data Cleaning and Visualization.
+
+#### Step 1 Importing Necessary Packages
+The first step in any data analysis project is to import the necessary packages or libraries. These libraries provide the functions and tools needed to manipulate the data, perform computations, and create visualizations. Below is the code I used to import the required packages for this project:
+![image](https://github.com/user-attachments/assets/ff0f27ac-525c-4cb7-90a6-886591190cab)
+
+#### Step 2 Importing the Dataset 
+ 
+The next step in our analysis is importing the dataset into our Python environment. In this case, we have multiple files, each containing data for a specific month. These files need to be combined into a single, comprehensive dataset to analyze the entire year's worth of sales data.
+We used the pandas library, which is an excellent tool for loading and manipulating data in Python. 
+We first collect the names of all the CSV files in the directory where the monthly sales data is stored.
+
+![image](https://github.com/user-attachments/assets/787b9983-8294-4252-982f-8fceacff533d)
+
+Since we have data in multiple files, we need to combine them into one large dataset. To do this, we create an empty DataFrame (all_data) and loop through each file, reading it with pd.read_csv() and appending it to all_data using pd.concat().
+
+![image](https://github.com/user-attachments/assets/47bce912-1bd4-439c-ad42-5c049c54b653)
+
+By doing this, we combine the data from all months into one file, allowing us to analyze the entire dataset rather than working with multiple separate files. This is essential for performing comprehensive analysis across different time periods and ensuring consistency in the data.
+
+#### Step 3 Verifying the Dataset. 
+
+After importing the dataset, it's important to verify its structure and understand the types of data it contains. We can do this using the info() function in pandas, which provides details about the dataset, such as the number of entries, column names, data types, and the presence of missing values.
+
+![image](https://github.com/user-attachments/assets/03870af0-1154-45e5-bf7d-5958e4d5469d)
+
+In the dataset, we found missing values represented as empty rows. To ensure the accuracy of our analysis, we decided to drop these empty rows using the dropna() method.
+and we noticed that all the data types in the dataset were set as object. This is problematic because certain columns (such as numerical values for quantity and price) need to be transformed into appropriate data types (e.g., integers or floats) for proper analysis and calculations.
+To address this, we will convert the relevant columns to their correct data types. For example, we need to convert the Quantity Ordered and Price Each columns to numeric types, and the Order Date column to a datetime type.
+
+![image](https://github.com/user-attachments/assets/27ae9585-3bda-428c-9b67-561832146a51)
+
+![image](https://github.com/user-attachments/assets/2b513391-9fdc-4387-89c7-7bb015fca95f)
+
+Step 4: Analyzing the Data — Answering the Business Questions
+After cleaning and preparing our dataset, we can now move on to the core of our project: analyzing the sales data to extract meaningful insights.
+In this section, we will answer a set of key business questions, such as:
+
+What was the best month for sales and how much was earned that month?
+
+What city had the highest number of sales?
+
+What time should advertisements be displayed to maximize customer purchases?
+
+Which product sold the most and why?
+
+To answer the first question, we need to create a new column called Sales, which is the result of Quantity Ordered * Price Each. Then, we group by month and sum the total sales.
+
+![image](https://github.com/user-attachments/assets/916a0f9b-cdb1-4fd6-8cd5-1130e5c0b7a1)
+![image](https://github.com/user-attachments/assets/9c4b7aff-6238-44f9-ba03-cc4a0b885642)
+![image](https://github.com/user-attachments/assets/e802a017-363b-4173-a5f8-1360f7718039)
+
+### Visualization
+![image](https://github.com/user-attachments/assets/1e3d08d5-f0e6-4335-901d-f83012c8a65b)
+
+December emerged as the best-performing sales month in 2019, . This exceptional performance likely reflects heightened consumer spending during the holiday season, when gift purchases and year-end promotions typically drive sales peaks. The December revenue exceeded the monthly average by approximately 40%, demonstrating the significant impact of seasonal demand on business performance. This substantial earnings spike suggests that holiday marketing strategies, inventory planning, and promotional campaigns were particularly effective during this period. Companies can leverage this insight by intensifying their Q4 sales initiatives and ensuring optimal stock levels to maximize future December revenue opportunities.
+
+##### What city had the highest number of sales?
+![image](https://github.com/user-attachments/assets/12ceebee-2f96-4668-b2f2-4f7cb3ecf3bf)
+### Visualization
+![image](https://github.com/user-attachments/assets/43fa6a88-798c-42f3-b0e3-7f18ecd116d0)
+Order Distribution Analysis by City
+San Francisco dominates with 40,000 orders - the highest among all cities, likely due to its dense tech-savvy population and strong e-commerce adoption. Los Angeles follows with 30,000 orders, benefiting from its massive metropolitan consumer base. New York City records 20,000 orders, which appears surprisingly low given its population density, suggesting potential market penetration opportunities. Boston and Atlanta show moderate order volumes at 15,000 and 10,000 respectively, while Dallas, Seattle, Portland and Austin trail with under 10,000 orders each - these secondary markets may require targeted marketing campaigns to boost conversion rates. The significant variance between San Francisco (40K) and Austin (5K) orders indicates either: 
+1) uneven market saturation,
+2) regional supply chain advantages in California, 
+3) demographic differences in purchasing behavior. Recommended actions include conducting customer surveys in underperforming cities and analyzing shipping cost structures.
+
+##### What time should advertisements be displayed to maximize customer purchases?
+![image](https://github.com/user-attachments/assets/efa8d4c6-e0ac-4c8f-9d65-9b34c375c41a)
+
+### Visualization 
+![image](https://github.com/user-attachments/assets/a5b49a80-b635-4239-adf9-67365c35f25c)
+
+To maximize customer purchases, advertisements should be strategically timed to align with peak transaction hours. The data reveals two prime windows for ad placements: midday (12:00-13:00) with 12,587 transactions and evening (19:00-20:00) with 12,905 transactions, making these the optimal times to capture high purchase intent. Strong secondary periods include mid-morning (10:00-11:00) and early evening (18:00-19:00), which show sustained activity levels above 10,000 transactions per hour. Morning hours from 8:00 onward demonstrate steady growth, peaking at 12,411 transactions by 11:00, while afternoon hours maintain consistently high volumes above 12,000 transactions between 12:00 and 14:00. By contrast, overnight hours (23:00-5:00) account for less than 7% of total daily transactions, representing poor ad value. For optimal results, advertisers should concentrate 70-75% of their budget during the twin peaks of midday and evening hours, when consumer purchasing behavior is most active, while using remaining resources to maintain visibility during the strong secondary periods that bookend these peaks. This timing strategy ensures maximum exposure during proven high-conversion periods while maintaining efficient ad spend allocation.
+
+##### Which product sold the most and why?
+![image](https://github.com/user-attachments/assets/6580428e-6596-4421-8586-b91a96ca02e6)
+
+### Visualization 
+
+![image](https://github.com/user-attachments/assets/5252c406-7514-483c-9f9f-7fea4971a850)
+
+AAA Batteries (4-pack) emerged as the top-selling product with 31,017 units sold, outperforming all other items by a significant margin. This dominance stems from their universal utility across countless household devices, from remote controls to children's toys, creating consistent demand regardless of season or consumer demographics. The product's success is further amplified by its affordable price point, which eliminates typical purchasing hesitation and encourages impulse buys, along with its role as a natural complement to many electronics sold in the same marketplace. The broader trend of battery and charging-related products occupying the top four spots suggests customers prioritize essential, frequently replaced accessories over premium electronics, likely due to their everyday necessity and compatibility with multiple devices. This sales pattern indicates that practical, low-cost items with universal applications tend to outperform specialized, high-ticket products in this retail environment, highlighting the importance of maintaining strong inventory and strategic positioning for these high-demand commodity goods.
+
+### Project N°2    HR Attrition Analysis 
   
 #### Table of contents
 - [Title](#title)
