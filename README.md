@@ -1,14 +1,5 @@
 # Welcome to the Portfolio of Raiss Mounir 🎓📊
 
-<div class="language-buttons">
-  <button onclick="setLanguage('en')">English</button>
-  <button onclick="setLanguage('fr')">Français</button>
-</div>
-
-
-
-
- 
 ### Table of contents
 - [About Me ](#about-me)
 - [Skills and Expertise ](#skills-and-expertise)
