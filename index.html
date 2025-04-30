@@ -1,30 +1,20 @@
-<script>
-async function translatePage(lang) {
-  const elements = document.querySelectorAll("[data-translate]");
-  
-  for (const el of elements) {
-    try {
-      const text = el.textContent;
-      const response = await fetch("https://libretranslate.com/translate", {
-        method: "POST",
-        headers: { 
-          "Content-Type": "application/json",
-          "Accept": "application/json"
-        },
-        body: JSON.stringify({
-          q: text,
-          source: "en",
-          target: lang
-        })
-      });
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mon Portfolio</title>
+  <script src="script.js" defer></script> <!-- Si tu utilises un fichier externe pour ton script -->
+</head>
+<body>
+  <!-- Sélecteur de langue -->
+  <select onchange="translatePage(this.value)">
+    <option value="fr">Français</option>
+    <option value="en">English</option>
+  </select>
 
-      if (!response.ok) throw new Error("Translation failed");
-      
-      const data = await response.json();
-      el.textContent = data.translatedText; // Correction: 'translatedText' et non 'translateeffect'
-    } catch (error) {
-      console.error("Translation error:", error);
-    }
-  }
-}
-</script>
+  <!-- Exemple de contenu à traduire -->
+  <h1 data-translate>Welcome to my portfolio</h1>
+  <p data-translate>Here, you'll find information about my projects, skills, and experience.</p>
+</body>
+</html>
