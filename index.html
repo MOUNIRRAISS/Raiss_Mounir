@@ -1,19 +1,30 @@
 <script>
 async function translatePage(lang) {
   const elements = document.querySelectorAll("[data-translate]");
+  
   for (const el of elements) {
-    const text = el.textContent;
-    const response = await fetch(`https://libretranslate.com/translate`, {
-      method: "POST",
-      body: JSON.stringify({
-        q: text,
-        source: "en",
-        target: lang
-      }),
-      headers: { "Content-Type": "application/json" }
-    });
-    const data = await response.json();
-    el.textContent = data.translatedText;
+    try {
+      const text = el.textContent;
+      const response = await fetch("https://libretranslate.com/translate", {
+        method: "POST",
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          q: text,
+          source: "en",
+          target: lang
+        })
+      });
+
+      if (!response.ok) throw new Error("Translation failed");
+      
+      const data = await response.json();
+      el.textContent = data.translatedText; // Correction: 'translatedText' et non 'translateeffect'
+    } catch (error) {
+      console.error("Translation error:", error);
+    }
   }
 }
 </script>
