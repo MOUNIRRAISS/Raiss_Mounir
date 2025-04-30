@@ -3,17 +3,40 @@
 <head>
     <title>Portfolio de Raiss Mounir</title>
     <style>
-        body { font-family: Arial; line-height: 1.6; }
-        .language-buttons { position: fixed; top: 20px; right: 20px; }
+        body { font-family: Arial; line-height: 1.6; margin: 0; padding: 20px; }
+        .language-buttons { 
+            position: fixed; 
+            top: 20px; 
+            right: 20px; 
+            z-index: 100;
+        }
+        button { padding: 8px 12px; cursor: pointer; }
     </style>
 </head>
 <body>
     <div class="language-buttons">
-        <button onclick="setLanguage('en')">English</button>
-        <button onclick="setLanguage('fr')">Français</button>
+        <button onclick="setLanguage('en')">English</button>  <!-- Correction: setLanguage avec L majuscule -->
+        <button onclick="setLanguage('fr')">Français</button> <!-- Correction: accent sur "Français" -->
     </div>
-    <!-- Copiez ici le contenu de votre README en HTML -->
-    <h1 data-translate="welcome">Welcome to my portfolio!</h1>
-    <script src="translations.js"></script>
+
+    <!-- Contenu traduisible -->
+    <h1 data-translate="welcome">Welcome to my portfolio!</h1>  <!-- Correction: "data-translate" (pas "date-translate") -->
+    <p data-translate="about">Hello! I'm Raiss Mounir, a Data Analyst...</p> <!-- Exemple de paragraphe -->
+
+    <script>
+        // Ajoutez ce script directement (pas besoin de fichier séparé pour commencer)
+        const translations = {
+            "welcome": { en: "Welcome to my portfolio!", fr: "Bienvenue sur mon portfolio !" },
+            "about": { en: "Hello! I'm Raiss Mounir...", fr: "Bonjour ! Je suis Raiss Mounir..." }
+            // Ajoutez d'autres traductions ici
+        };
+
+        function setLanguage(lang) {
+            document.querySelectorAll("[data-translate]").forEach(el => {
+                const key = el.getAttribute("data-translate");
+                if (translations[key]) el.textContent = translations[key][lang];
+            });
+        }
+    </script>
 </body>
 </html>
