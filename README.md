@@ -5,8 +5,8 @@
 - [Skills and Expertise ](#skills-and-expertise)
 - [What You'll Find Here ](#what-youll-find-here)
 - [Projects Showcase ](#projects-showcase)
-- [Project N°1 (sales_analysis_project)(Python)](#project-N-1-----sales-analysis-project)
-- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#project-N-2----hr-attrition-analysis)
+- [Project N°1 (sales_analysis project)(Python)](#project-n-1-----sales-analysis-project)
+- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#project-n-2----hr-attrition-analysis)
 
 
 ### About Me 
@@ -35,7 +35,7 @@ This portfolio showcases my projects, skills, and achievements, including:
 
 Here are some of the key projects I’ve worked on, highlighting my skills in data analysis, econometrics, and visualization. Each project tackles a unique challenge and demonstrates my ability to transform data into actionable insights:
 
-### Project N°1     Sales_analysis_project
+### Project N°1     Sales analysis project
 
 #### Table of contents
 - [Title](#project-title)
@@ -126,25 +126,32 @@ To answer the first question, we need to create a new column called Sales, which
 
 December emerged as the best-performing sales month in 2019, . This exceptional performance likely reflects heightened consumer spending during the holiday season, when gift purchases and year-end promotions typically drive sales peaks. The December revenue exceeded the monthly average by approximately 40%, demonstrating the significant impact of seasonal demand on business performance. This substantial earnings spike suggests that holiday marketing strategies, inventory planning, and promotional campaigns were particularly effective during this period. Companies can leverage this insight by intensifying their Q4 sales initiatives and ensuring optimal stock levels to maximize future December revenue opportunities.
 
-##### What city had the highest number of sales?
+#### What city had the highest number of sales?
+
 ![image](https://github.com/user-attachments/assets/12ceebee-2f96-4668-b2f2-4f7cb3ecf3bf)
+
 ### Visualization
+
 ![image](https://github.com/user-attachments/assets/43fa6a88-798c-42f3-b0e3-7f18ecd116d0)
-Order Distribution Analysis by City
+
+Order Distribution Analysis by City:
 San Francisco dominates with 40,000 orders - the highest among all cities, likely due to its dense tech-savvy population and strong e-commerce adoption. Los Angeles follows with 30,000 orders, benefiting from its massive metropolitan consumer base. New York City records 20,000 orders, which appears surprisingly low given its population density, suggesting potential market penetration opportunities. Boston and Atlanta show moderate order volumes at 15,000 and 10,000 respectively, while Dallas, Seattle, Portland and Austin trail with under 10,000 orders each - these secondary markets may require targeted marketing campaigns to boost conversion rates. The significant variance between San Francisco (40K) and Austin (5K) orders indicates either: 
 1) uneven market saturation,
 2) regional supply chain advantages in California, 
 3) demographic differences in purchasing behavior. Recommended actions include conducting customer surveys in underperforming cities and analyzing shipping cost structures.
 
-##### What time should advertisements be displayed to maximize customer purchases?
+#### What time should advertisements be displayed to maximize customer purchases?
+
 ![image](https://github.com/user-attachments/assets/efa8d4c6-e0ac-4c8f-9d65-9b34c375c41a)
 
 ### Visualization 
+
 ![image](https://github.com/user-attachments/assets/a5b49a80-b635-4239-adf9-67365c35f25c)
 
 To maximize customer purchases, advertisements should be strategically timed to align with peak transaction hours. The data reveals two prime windows for ad placements: midday (12:00-13:00) with 12,587 transactions and evening (19:00-20:00) with 12,905 transactions, making these the optimal times to capture high purchase intent. Strong secondary periods include mid-morning (10:00-11:00) and early evening (18:00-19:00), which show sustained activity levels above 10,000 transactions per hour. Morning hours from 8:00 onward demonstrate steady growth, peaking at 12,411 transactions by 11:00, while afternoon hours maintain consistently high volumes above 12,000 transactions between 12:00 and 14:00. By contrast, overnight hours (23:00-5:00) account for less than 7% of total daily transactions, representing poor ad value. For optimal results, advertisers should concentrate 70-75% of their budget during the twin peaks of midday and evening hours, when consumer purchasing behavior is most active, while using remaining resources to maintain visibility during the strong secondary periods that bookend these peaks. This timing strategy ensures maximum exposure during proven high-conversion periods while maintaining efficient ad spend allocation.
 
-##### Which product sold the most and why?
+#### Which product sold the most and why?
+
 ![image](https://github.com/user-attachments/assets/6580428e-6596-4421-8586-b91a96ca02e6)
 
 ### Visualization 
@@ -152,6 +159,7 @@ To maximize customer purchases, advertisements should be strategically timed to 
 ![image](https://github.com/user-attachments/assets/5252c406-7514-483c-9f9f-7fea4971a850)
 
 AAA Batteries (4-pack) emerged as the top-selling product with 31,017 units sold, outperforming all other items by a significant margin. This dominance stems from their universal utility across countless household devices, from remote controls to children's toys, creating consistent demand regardless of season or consumer demographics. The product's success is further amplified by its affordable price point, which eliminates typical purchasing hesitation and encourages impulse buys, along with its role as a natural complement to many electronics sold in the same marketplace. The broader trend of battery and charging-related products occupying the top four spots suggests customers prioritize essential, frequently replaced accessories over premium electronics, likely due to their everyday necessity and compatibility with multiple devices. This sales pattern indicates that practical, low-cost items with universal applications tend to outperform specialized, high-ticket products in this retail environment, highlighting the importance of maintaining strong inventory and strategic positioning for these high-demand commodity goods.
+
 
 ### Project N°2    HR Attrition Analysis 
   
