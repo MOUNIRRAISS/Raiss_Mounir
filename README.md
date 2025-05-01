@@ -161,7 +161,7 @@ To maximize customer purchases, advertisements should be strategically timed to 
 AAA Batteries (4-pack) emerged as the top-selling product with 31,017 units sold, outperforming all other items by a significant margin. This dominance stems from their universal utility across countless household devices, from remote controls to children's toys, creating consistent demand regardless of season or consumer demographics. The product's success is further amplified by its affordable price point, which eliminates typical purchasing hesitation and encourages impulse buys, along with its role as a natural complement to many electronics sold in the same marketplace. The broader trend of battery and charging-related products occupying the top four spots suggests customers prioritize essential, frequently replaced accessories over premium electronics, likely due to their everyday necessity and compatibility with multiple devices. This sales pattern indicates that practical, low-cost items with universal applications tend to outperform specialized, high-ticket products in this retail environment, highlighting the importance of maintaining strong inventory and strategic positioning for these high-demand commodity goods.
 
 
-### Project N°2    HR Attrition Analysis 
+### Project N°2 HR Attrition Analysis 
   
 #### Table of contents
 - [Title](#title)
