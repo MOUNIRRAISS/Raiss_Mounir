@@ -6,7 +6,7 @@
 - [What You'll Find Here ](#what-youll-find-here)
 - [Projects Showcase ](#projects-showcase)
 - [Project N°1 (sales analysis project)(Python)](#project-n1-sales-analysis-project)
-- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#Project-N2-HR-Attrition-Analysis)
+- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#project-n2-hr-attrition-analysis)
 
 
 ### About Me 
