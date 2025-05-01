@@ -5,8 +5,8 @@
 - [Skills and Expertise ](#skills-and-expertise)
 - [What You'll Find Here ](#what-youll-find-here)
 - [Projects Showcase ](#projects-showcase)
-- [Project N°1 (sales analysis project)(Python)](#Project-N-1-----Sales-analysis-project)
-- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#Project-N-2----HR-Attrition-Analysis)
+- [Project N°1 (sales analysis project)(Python)](#project-n-1-sales-analysis-project)
+- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#Project-N-2-HR-Attrition-Analysis)
 
 
 ### About Me 
