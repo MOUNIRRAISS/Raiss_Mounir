@@ -108,13 +108,13 @@ To address this, we will convert the relevant columns to their correct data type
 After cleaning and preparing our dataset, we can now move on to the core of our project: analyzing the sales data to extract meaningful insights.
 In this section, we will answer a set of key business questions, such as:
 
-What was the best month for sales and how much was earned that month?
+- What was the best month for sales and how much was earned that month?
 
-What city had the highest number of sales?
+- What city had the highest number of sales?
 
-What time should advertisements be displayed to maximize customer purchases?
+- What time should advertisements be displayed to maximize customer purchases?
 
-Which product sold the most and why?
+- Which product sold the most and why?
 
 To answer the first question, we need to create a new column called Sales, which is the result of Quantity Ordered * Price Each. Then, we group by month and sum the total sales.
 
@@ -133,13 +133,11 @@ December emerged as the best-performing sales month in 2019, . This exceptional 
 
 ### Visualization
 
+![image](https://github.com/user-attachments/assets/2ae706f8-2329-483f-8148-89811ea46833)
+
 ![image](https://github.com/user-attachments/assets/43fa6a88-798c-42f3-b0e3-7f18ecd116d0)
 
-Order Distribution Analysis by City:
-San Francisco dominates with 40,000 orders - the highest among all cities, likely due to its dense tech-savvy population and strong e-commerce adoption. Los Angeles follows with 30,000 orders, benefiting from its massive metropolitan consumer base. New York City records 20,000 orders, which appears surprisingly low given its population density, suggesting potential market penetration opportunities. Boston and Atlanta show moderate order volumes at 15,000 and 10,000 respectively, while Dallas, Seattle, Portland and Austin trail with under 10,000 orders each - these secondary markets may require targeted marketing campaigns to boost conversion rates. The significant variance between San Francisco (40K) and Austin (5K) orders indicates either: 
-1) uneven market saturation,
-2) regional supply chain advantages in California, 
-3) demographic differences in purchasing behavior. Recommended actions include conducting customer surveys in underperforming cities and analyzing shipping cost structures.
+The order distribution analysis reveals that San Francisco is the top-performing city, with 44,732 orders, likely driven by a tech-savvy population, strong digital infrastructure, and a high level of e-commerce adoption. Los Angeles follows with 29,605 orders, reflecting its large, diverse metropolitan market. Surprisingly, New York City ranks third with 24,876 orders, a relatively modest figure considering its population density, which suggests untapped market potential or operational inefficiencies. Mid-sized cities like Boston (19,934) and Atlanta (14,881) show moderate engagement, while Dallas, Seattle, Portland, and Austin trail with under 15,000 orders each—Austin registering the lowest with 9,905 orders. This stark contrast, especially between San Francisco and Austin, may result from uneven market penetration, regional supply chain advantages on the West Coast, or demographic differences in consumer behavior. These findings point to the need for targeted marketing strategies, customer engagement efforts, and supply chain assessments to strengthen performance in underperforming regions and maximize overall sales potential.
 
 #### What time should advertisements be displayed to maximize customer purchases?
 
