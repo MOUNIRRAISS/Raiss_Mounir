@@ -35,7 +35,7 @@ This portfolio showcases my projects, skills, and achievements, including:
 
 Here are some of the key projects I’ve worked on, highlighting my skills in data analysis, econometrics, and visualization. Each project tackles a unique challenge and demonstrates my ability to transform data into actionable insights:
 
-### Project N1 Sales analysis project
+### Project N°1 Sales analysis project
 
 #### Table of contents
 - [Title](#project-title)
@@ -43,10 +43,10 @@ Here are some of the key projects I’ve worked on, highlighting my skills in da
 - [Project Objectives](#project-objectives)
 - [Tools Used](#tools)
 - [Python Data Cleaning & Visualization](#data-cleaning-and-visualization-python)
-- [Step 1: Importing Necessary Packages ](#step-1-importing-necessary-packages)
-- [Step 2 Importing the Dataset ](#step-2-importing-the-dataset)
-- [Step 3: Verifying the Dataset ](#step-3-verifying-the-dataset)
-- [Step 4: Analyzing the Data — Answering the Business Questions ](#step-4-analyzing-the-data---answering-the-business-questions)
+- [Step 1: Importing Necessary Packages ](#step-1-setup-and-package-imports)
+- [Step 2 Importing the Dataset ](#step-2-dataset-import)
+- [Step 3: Verifying the Dataset ](#step-3-inspecting-the-dataset)
+- [Step 4: Analyzing the Data — Answering the Business Questions ](#step-4-analyzing-the-data-answering-the-business-questions)
 
 
 #### Project Title  
@@ -70,12 +70,13 @@ Find the Best-Selling Product: Identify the product that sold the most and explo
 
 ###  Data Cleaning and Visualization Python
 
-#### Step 1 Importing Necessary Packages
+#### Step 1 Setup and Package Imports
+
 The first step in any data analysis project is to import the necessary packages or libraries. These libraries provide the functions and tools needed to manipulate the data, perform computations, and create visualizations. Below is the code I used to import the required packages for this project:
 
 ![image](https://github.com/user-attachments/assets/ff0f27ac-525c-4cb7-90a6-886591190cab)
 
-#### Step 2 Importing the Dataset 
+#### Step 2 Dataset Import
  
 The next step in our analysis is importing the dataset into our Python environment. In this case, we have multiple files, each containing data for a specific month. These files need to be combined into a single, comprehensive dataset to analyze the entire year's worth of sales data.
 We used the pandas library, which is an excellent tool for loading and manipulating data in Python. 
@@ -89,7 +90,7 @@ Since we have data in multiple files, we need to combine them into one large dat
 
 By doing this, we combine the data from all months into one file, allowing us to analyze the entire dataset rather than working with multiple separate files. This is essential for performing comprehensive analysis across different time periods and ensuring consistency in the data.
 
-#### Step 3 Verifying the Dataset. 
+#### Step 3 Inspecting the Dataset
 
 After importing the dataset, it's important to verify its structure and understand the types of data it contains. We can do this using the info() function in pandas, which provides details about the dataset, such as the number of entries, column names, data types, and the presence of missing values.
 
@@ -103,7 +104,7 @@ To address this, we will convert the relevant columns to their correct data type
 
 ![image](https://github.com/user-attachments/assets/2b513391-9fdc-4387-89c7-7bb015fca95f)
 
-Step 4: Analyzing the Data — Answering the Business Questions
+#### Step 4: Analyzing the Data  Answering the Business Questions
 After cleaning and preparing our dataset, we can now move on to the core of our project: analyzing the sales data to extract meaningful insights.
 In this section, we will answer a set of key business questions, such as:
 
