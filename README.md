@@ -548,7 +548,7 @@ This comprehensive view of workforce dynamics helps organizations proactively ad
 
 
 ### Project N°3 In Progress  
-*Details will be added soon.*
+*Details will be added soon........*
 
 
 
