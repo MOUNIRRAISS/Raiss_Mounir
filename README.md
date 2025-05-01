@@ -104,7 +104,7 @@ To address this, we will convert the relevant columns to their correct data type
 
 ![image](https://github.com/user-attachments/assets/2b513391-9fdc-4387-89c7-7bb015fca95f)
 
-#### Step 4: Analyzing the Data  Answering the Business Questions
+#### Step 4: Analyzing the Data Answering the Business Questions
 After cleaning and preparing our dataset, we can now move on to the core of our project: analyzing the sales data to extract meaningful insights.
 In this section, we will answer a set of key business questions, such as:
 
