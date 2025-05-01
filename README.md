@@ -5,8 +5,8 @@
 - [Skills and Expertise ](#skills-and-expertise)
 - [What You'll Find Here ](#what-youll-find-here)
 - [Projects Showcase ](#projects-showcase)
-- [Project N°1 (sales_analysis_project)(Python)](#project-N°1-----sales-analysis-project)
-- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#project-n1----hr-attrition-analysis)
+- [Project N°1 (sales_analysis_project)(Python)](#project-N-1-----sales-analysis-project)
+- [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#project-N-2----hr-attrition-analysis)
 
 
 ### About Me 
@@ -42,11 +42,11 @@ Here are some of the key projects I’ve worked on, highlighting my skills in da
 - [Project Description](#project-description)
 - [Project Objectives](#project-objectives)
 - [Tools Used](#tools)
-- [Python Data Cleaning & Visualization](#python-data-cleaning-and-visualization.)
-- [Step 1: Importing Necessary Packages ](#step-1-importing-necessary-packages.)
-- [Step 2 Importing the Dataset ](#step-2-importing-the-dataset.)
-- [Step 3: Verifying the Dataset ](#step-3-verifying-the-dataset.)
-- [Step 4: Step 4: Analyzing the Data — Answering the Business Questions ](#step-4:-analyzing-the-data---answering-the-business-questions)
+- [Python Data Cleaning & Visualization](#data-cleaning-and-visualization-python)
+- [Step 1: Importing Necessary Packages ](#step-1-importing-necessary-packages)
+- [Step 2 Importing the Dataset ](#step-2-importing-the-dataset)
+- [Step 3: Verifying the Dataset ](#step-3-verifying-the-dataset)
+- [Step 4: Analyzing the Data — Answering the Business Questions ](#step-4-analyzing-the-data---answering-the-business-questions)
 
 
 #### Project Title  
@@ -68,7 +68,7 @@ Find the Best-Selling Product: Identify the product that sold the most and explo
 - Python for data cleaning and visualisation
 
 
-### Python Data Cleaning and Visualization.
+###  Data Cleaning and Visualization Python
 
 #### Step 1 Importing Necessary Packages
 The first step in any data analysis project is to import the necessary packages or libraries. These libraries provide the functions and tools needed to manipulate the data, perform computations, and create visualizations. Below is the code I used to import the required packages for this project:
