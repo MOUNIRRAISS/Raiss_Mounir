@@ -35,7 +35,7 @@ This portfolio showcases my projects, skills, and achievements, including:
 
 Here are some of the key projects I’ve worked on, highlighting my skills in data analysis, econometrics, and visualization. Each project tackles a unique challenge and demonstrates my ability to transform data into actionable insights:
 
-### Project N1     Sales analysis project
+### Project N1 Sales analysis project
 
 #### Table of contents
 - [Title](#project-title)
