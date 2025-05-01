@@ -7,6 +7,7 @@
 - [Projects Showcase ](#projects-showcase)
 - [Project N°1 (sales analysis project)(Python)](#project-n1-sales-analysis-project)
 - [Project N°2 (HR Attrition Analysis)(Python & Power BI) ](#project-n2-hr-attrition-analysis)
+- [Project N°3 — Work in Progress](#project-n3-in-progress)
 
 
 ### About Me 
@@ -546,8 +547,8 @@ This comprehensive view of workforce dynamics helps organizations proactively ad
 
 
 
-
-
+### Project N°3 In Progress  
+*Details will be added soon.*
 
 
 
