@@ -129,11 +129,11 @@ December emerged as the best-performing sales month in 2019, . This exceptional 
 
 #### What city had the highest number of sales?
 
+![image](https://github.com/user-attachments/assets/2ae706f8-2329-483f-8148-89811ea46833)
+
 ![image](https://github.com/user-attachments/assets/12ceebee-2f96-4668-b2f2-4f7cb3ecf3bf)
 
 ### Visualization
-
-![image](https://github.com/user-attachments/assets/2ae706f8-2329-483f-8148-89811ea46833)
 
 ![image](https://github.com/user-attachments/assets/43fa6a88-798c-42f3-b0e3-7f18ecd116d0)
 
